@@ -4,3 +4,19 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 70%;
+  opacity: 50%;
+}
