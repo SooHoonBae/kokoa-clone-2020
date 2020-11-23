@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats-Kokoa Clon</title>
+    <title>Settings-Kokoa Clon</title>
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
@@ -21,36 +21,45 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column fa-2x">
+        <i class="fas fa-search"></i>
       </div>
     </header>
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars2.githubusercontent.com/u/49164146?s=460&u=bce7cbc5df144f6313a0f11ea15c128c13f5d7a8&v=4"
-              class="user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">KakaoTalk</h4>
-              <h6 class="user-component__subtitle">Please check My Kakao Account Info</h5>
-            </div>
-          </div>
-          <div class="user-component__column">
-              <span class="user-component__time">21:22</span>
-              <span class="badge">1</span>
-          </div>
-         </div>    
-     </a>
-    </main>
 
+    <main class="main-screen">
+      <ul class="settings-lists">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn"></i>
+            <span>Notices</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask"></i>
+            <span>Kakao Lab</span>
+          </div>
+          <div class="settings__setting-column">wow great</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -61,7 +70,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
